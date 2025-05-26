@@ -1,0 +1,49 @@
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .thead-primary {
+    background-color: #82ae46;
+    color: white;
+  }
+  
+  .product-name h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .product-name p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .image-prod {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .product-remove a {
+    color: red;
+    font-size: 24px;
+  }
+  
+  .product-remove a:hover {
+    color: darkred;
+  }
+  
+  .quantity input {
+    width: 60px;
+    text-align: center;
+  }
+  

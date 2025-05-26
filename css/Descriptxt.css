@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: black; /* Primary color */
+  }
+
+  /* Shared card styling */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Unique styles for each card */
+  .card:nth-child(1) {
+    background-color: #f4f4f4; /* Light yellow for the first card */
+    border-left: 5px solid#f4f4f4; /* Accent color */
+  }
+
+  .card:nth-child(2) {
+    background-color:#f4f4f4; /* Light pink for the second card */
+    border-left: 5px solid #f4f4f4;
+  }
+
+  .card:nth-child(3) {
+    background-color:#f4f4f4; /* Light blue for the third card */
+    border-left: 5px solid #f4f4f4;
+  }
+
+  .card:nth-child(4) {
+    background-color:#f4f4f4; /* Light green for the fourth card */
+    border-left: 5px solid #f4f4f4;
+  }
+
+  /* Image styling */
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* Heading styling */
+  .card h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .card:nth-child(1) h2 {
+    color:black; /* Match border accent */
+  }
+
+  .card:nth-child(2) h2 {
+    color: black;
+  }
+
+  .card:nth-child(3) h2 {
+    color: black;
+  }
+
+  .card:nth-child(4) h2 {
+    color: black;
+  }
+
+  .card h3 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Paragraph styling */
+  .card p {
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  /* Unique font styles for different cards */
+  .card:nth-child(1) p {
+    font-style: italic;
+  }
+
+  .card:nth-child(2) p {
+    font-weight: bold;
+  }
+
+  .card:nth-child(3) p {
+    font-family: 'Georgia', serif;
+  }
+
+  .card:nth-child(4) p {
+    text-transform: uppercase;
+  }
+
+  /* List styling */
+  ul {
+    margin-left: 20px;
+    list-style: disc;
+    color: black;
+  }
+
+  .card ul li {
+    margin-bottom: 10px;
+  }
+
